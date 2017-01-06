@@ -1,5 +1,10 @@
 import numpy as np
 
+"""
+Current set of functions are for use in integration functions.
+Define equations by defining a function eq(var).
+"""
+
 def eq(var):
     return float(var)
 
