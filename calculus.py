@@ -1,8 +1,12 @@
 import numpy as np
 
 """
-Current set of functions are for use in integration functions.
+Current set of functions are for use in integration problems.
 Define equations by defining a function eq(var).
+
+Variables start and end represent the range you want to analyze
+on a function.  Subs represents how many sections you want to
+divide the range into.
 """
 
 def eq(var):
